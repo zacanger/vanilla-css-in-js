@@ -16,7 +16,8 @@ Vanilla JavaScript CSS-in-JS
 // create :: string -> HTMLElement
 // createStyled  :: string -> rules -> HTMLElement
 
-import { style, create, createStyled } from 'vanilla-css-in-js'
+const { style, create, createStyled } = require('vanilla-css-in-js')
+// or const style = require('vanilla-css-in-js')
 
 // style
 const cardStyle = {

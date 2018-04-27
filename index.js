@@ -12,8 +12,7 @@ const createStyled = (el) => (rules) => {
   return e
 }
 
-module.exports = {
-  style,
-  create,
-  createStyled
-}
+module.exports = style
+module.exports.create = create
+module.exports.style = style
+module.exports.createStyled = createStyled
