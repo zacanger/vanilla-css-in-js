@@ -1,6 +1,6 @@
 {
   "name": "vanilla-css-in-js",
-  "description": "vanilla-css-in-js",
+  "description": "Vanilla JavaScript CSS-in-JS",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
@@ -20,8 +20,12 @@
   },
   "bugs": "https://github.com/zacanger/vanilla-css-in-js/issues",
   "keywords": [
-    "",
-    "vanilla-css-in-js"
+    "css",
+    "css-in-js",
+    "style",
+    "vanilla",
+    "vanilla-css-in-js",
+    "vanillajs"
   ],
   "dependencies": {},
   "devDependencies": {},
