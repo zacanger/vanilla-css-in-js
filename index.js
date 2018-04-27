@@ -7,7 +7,7 @@ const style = (rules) => (el) => {
 const create = (el) => document.createElement(el)
 
 const createStyled = (el) => (rules) => {
-  const e = h(el)
+  const e = create(el)
   style(rules)(e)
   return e
 }
