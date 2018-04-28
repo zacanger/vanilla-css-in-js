@@ -14,7 +14,7 @@ This library doesn't support a whole lot. No media queries, no extraction into a
 stylesheet, no nested selectors, no states (hover/focus/active). This is the
 bare minimum I need to comfortably write styles in plain JS for very small
 projects. If you need something with any features at all, I highly recommend
-checkout out [cxs](https://github.com/cxs-css/cxs).
+checking out [cxs](https://github.com/cxs-css/cxs).
 
 Example:
 
@@ -26,6 +26,9 @@ Example:
 
 const { style, create, createStyled } = require('vanilla-css-in-js')
 // or const style = require('vanilla-css-in-js')
+// or import { style, create, createStyled } from 'vanilla-css-in-js'
+// or import style, { create, createStyled } from 'vanilla-css-in-js'
+// do what you want, really
 
 // style
 const cardStyle = {
