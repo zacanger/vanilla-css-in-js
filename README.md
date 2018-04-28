@@ -10,6 +10,14 @@ Vanilla JavaScript CSS-in-JS
 
 ## Usage
 
+This library doesn't support a whole lot. No media queries, no extraction into a
+stylesheet, no nested selectors, no states (hover/focus/active). This is the
+bare minimum I need to comfortably write styles in plain JS for very small
+projects. If you need something with any features at all, I highly recommend
+checkout out [cxs](https://github.com/cxs-css/cxs).
+
+Example:
+
 ```javascript
 // rules :: { [string]: string }
 // style :: rules -> HTMLElement -> void
