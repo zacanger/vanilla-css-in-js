@@ -19,7 +19,7 @@ checking out [cxs](https://github.com/cxs-css/cxs).
 Example:
 
 ```javascript
-// rules :: { [string]: string }
+// rules :: { [key: string]: string }
 // style :: rules -> HTMLElement -> void
 // create :: string -> HTMLElement
 // createStyled  :: string -> rules -> HTMLElement
