@@ -5,7 +5,7 @@ workflow "Install and Test" {
 
 action "Install" {
   uses = "actions/npm@master"
-  args = "ci"
+  args = "i"
 }
 
 action "Test" {
