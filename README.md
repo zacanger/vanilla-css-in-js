@@ -1,7 +1,5 @@
 # vanilla-css-in-js
 
-**Unmaintained**
-
 Vanilla JavaScript CSS-in-JS
 
 --------
